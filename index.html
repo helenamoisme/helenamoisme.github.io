@@ -1,98 +1,53 @@
 <!doctype html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Helena Mo 的个人主页" />
-    <title>Helena Mo — Personal Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="layout">
-      <aside class="profile">
-        <a class="brand" href="#top" aria-label="返回顶部">HELENA<span>·</span></a>
-        <div class="portrait-wrap">
-          <img class="portrait" src="assets/helena-mo.jpg" alt="Helena Mo 在花园中的照片" />
-          <span class="portrait-note">NYC / Shanghai</span>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Helena Mo's Creative Embedded System Design course portfolio and project documentation.">
+  <title>Helena Mo · Creative Embedded System Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="logo" href="#top">helena<span>✳</span>mo</a>
+    <nav aria-label="Main navigation"><a href="#about">About</a><a href="#projects">Projects</a><a href="#process">Process</a></nav>
+    <a class="github" href="https://github.com/helenamoisme" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">✦ A LIVING COURSE PORTFOLIO · 2026</p>
+        <h1>Making ideas <em>feel</em> real.</h1>
+        <p class="intro">Creative Embedded System Design through sketches, circuits, code, prototypes, and reflection.</p>
+        <div class="actions"><a class="button dark" href="#projects">Explore projects ↘</a><a class="button light" href="#about">Meet Helena ↗</a></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orb">✳</div><span class="art-note note-a">DESIGN + TECHNOLOGY</span><span class="art-note note-b">IDEA → PROTOTYPE</span><span class="spark">✦</span></div>
+    </section>
+    <div class="ribbon"><span>curiosity</span> ✳ <span>interaction</span> ✳ <span>making</span> ✳ <span>iteration</span> ✳ <span>play</span></div>
+    <section class="section about" id="about">
+      <p class="label">01 / THE PERSON</p><h2>Hi, I'm Helena <span>✿</span></h2>
+      <div class="about-grid">
+        <figure class="portrait"><img src="assets/helena-mo.jpg" alt="Helena Mo outdoors in a garden"><figcaption>HELENA MO · NYC / SHANGHAI</figcaption></figure>
+        <div class="about-text">
+          <p class="large">I'm a Computer Science student at Columbia Engineering, interested in how technology and design can shape thoughtful, human-centered experiences.</p>
+          <p>In this class, I want to learn how to turn an idea into a physical, interactive system. I'm excited to experiment with sensors, microcontrollers, and everyday materials, then document what works, what doesn't, and what I learn along the way.</p>
+          <div class="goal"><b>✳</b><div><strong>My goal for this course</strong><p>Build playful, useful prototypes that invite people to interact, explore, and feel something.</p></div></div>
         </div>
-        <div class="identity">
-          <h1>Helena <span>Mo</span></h1>
-          <p class="role">CS Undergraduate</p>
-          <p class="location">Based in NYC &amp; Shanghai</p>
-        </div>
-        <nav class="socials" aria-label="个人链接">
-          <a href="https://github.com/helenamoisme" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
-          <a href="https://www.linkedin.com/in/%E7%A6%BE-%E8%8E%AB-953ab3409/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
-          <a href="https://x.com/" target="_blank" rel="noreferrer">Twitter / X <span>↗</span></a>
-          <a href="mailto:hm3194@columbia.edu">Email <span>↗</span></a>
-        </nav>
-          <p class="availability"><i></i> Columbia Engineering · NYC</p>
-      </aside>
-
-      <section class="content" id="top">
-        <header class="hero">
-          <p class="eyebrow">01 — ABOUT</p>
-          <h2>Learning to build thoughtful systems with <em>technology</em> &amp; curiosity.</h2>
-          <p class="lead">I'm Helena Mo, a junior studying Computer Science at Columbia Engineering. I'm interested in exploring how technology and design can shape more thoughtful, human-centered experiences.</p>
-        </header>
-
-        <section class="section" id="education">
-          <div class="section-label"><p class="eyebrow">02 — EDUCATION</p></div>
-          <div class="education-list">
-            <article class="education-item">
-              <p class="years">Present</p>
-              <div><h3>B.S. in Computer Science</h3><p>Columbia Engineering <span>·</span> Columbia University</p></div>
-              <span class="place">New York, NY</span>
-            </article>
-          </div>
-        </section>
-
-        <section class="section" id="projects">
-          <div class="section-label"><p class="eyebrow">03 — SELECTED PROJECTS</p><p class="subtle">More work<br/>coming soon</p></div>
-          <div class="project-list">
-            <a class="project" href="https://github.com/helenamoisme" target="_blank" rel="noreferrer">
-              <div><p class="project-number">01</p><h3>Work in progress</h3><p>我正在把课程、研究与个人创作中的项目整理到这里。</p><ul><li>CS</li><li>Build in public</li></ul></div><span class="arrow">↗</span>
-            </a>
-            <a class="project" href="https://github.com/helenamoisme" target="_blank" rel="noreferrer">
-              <div><p class="project-number">02</p><h3>Open source</h3><p>欢迎在 GitHub 查看我逐步更新的代码、笔记和实验。</p><ul><li>GitHub</li><li>Learning</li></ul></div><span class="arrow">↗</span>
-            </a>
-          </div>
-        </section>
-
-        <section class="section" id="coursework">
-          <div class="section-label"><p class="eyebrow">04 — COURSEWORK &amp; SKILLS</p></div>
-          <div class="coursework-grid">
-            <article class="coursework-group">
-              <p class="group-title">SELECTED COURSEWORK</p>
-              <ul class="course-list">
-                <li>Human-Computer Interaction</li>
-                <li>Computer Systems</li>
-                <li>Game Development</li>
-                <li>Data Structures</li>
-                <li>Discrete Mathematics</li>
-              </ul>
-            </article>
-            <article class="coursework-group">
-              <p class="group-title">SKILLS</p>
-              <ul class="skill-list">
-                <li>Java</li><li>C++</li><li>Python</li><li>Figma</li><li>Godot</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section class="section" id="publications">
-          <div class="section-label"><p class="eyebrow">05 — PUBLICATIONS</p></div>
-          <div class="publication-list">
-            <article class="publication"><p class="pub-type">UPDATES · 2026</p><h3>Publications coming soon</h3><p>研究、写作和技术笔记将在这里持续更新。</p><div class="pub-links"><a href="https://github.com/helenamoisme" target="_blank" rel="noreferrer">GitHub ↗</a></div></article>
-          </div>
-        </section>
-
-        <footer><span>© 2026 Helena Mo</span><a href="mailto:hm3194@columbia.edu">Let's talk <span>↗</span></a></footer>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+    <section class="section projects" id="projects">
+      <div class="section-head"><div><p class="label">02 / THE WORK</p><h2>Project documentation<span>.</span></h2></div><p>Follow each idea from first sketch to working prototype. Entries will be added throughout the course.</p></div>
+      <div class="cards">
+        <article class="card"><div class="card-art art-pink"><span>✦</span><small>01</small></div><div class="card-body"><p class="tag">COMING SOON · PROJECT 01</p><h3>First experiments</h3><p>Early explorations with inputs, outputs, and interaction. Documentation will include the concept, process, code, and reflections.</p><div class="status">Documentation in progress <span>↗</span></div></div></article>
+        <article class="card"><div class="card-art art-blue"><span>〰</span><small>02</small></div><div class="card-body"><p class="tag">UPCOMING · PROJECT 02</p><h3>Next prototype</h3><p>A space for the next build, including sketches, components, iterations, and what I learned.</p><div class="status">To be documented <span>↗</span></div></div></article>
+        <article class="card"><div class="card-art art-lilac"><span>✳</span><small>03</small></div><div class="card-body"><p class="tag">UPCOMING · FINAL PROJECT</p><h3>Final exploration</h3><p>A home for the final concept, build process, demo, source code, and reflections.</p><div class="status">To be documented <span>↗</span></div></div></article>
+      </div>
+    </section>
+    <section class="section process" id="process"><div><p class="label">03 / THE PROCESS</p><h2>A little bit of <em>everything</em> goes into making.</h2><p>This space will grow into a record of weekly progress: questions, tests, happy accidents, and the decisions behind each project.</p></div><div class="steps"><div><span>01</span><strong>Imagine</strong><p>Research, inspiration, and rough sketches.</p></div><div><span>02</span><strong>Build</strong><p>Components, code, fabrication, and experiments.</p></div><div><span>03</span><strong>Reflect</strong><p>What changed, what failed, and what comes next.</p></div></div></section>
+  </main>
+  <footer><div><a class="logo" href="#top">helena<span>✳</span>mo</a><p>Creative Embedded System Design · Course portfolio</p></div><div class="footer-links"><a href="https://github.com/helenamoisme" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:hm3194@columbia.edu">Email ↗</a><a href="#top">Back to top ↑</a></div><small>© 2026 Helena Mo</small></footer>
+</body>
 </html>
