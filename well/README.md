@@ -8,7 +8,7 @@ An interactive horror game by Helena Mo. A joystick becomes a flashlight in a ni
 
 ## Artistic vision
 
-Inspired by Sadako crawling out of the television in the Japanese film *Ring*, Well uses limited visibility and an intentional button press to build suspense before a sudden reveal. The original hard-edged circular light was replaced with a gradual fade to create a more atmospheric beam.
+Inspired by Sadako crawling out of the television in the Japanese film *リング*, Well uses limited visibility and an intentional button press to build suspense before a sudden reveal. The original hard-edged circular light was replaced with a gradual fade to create a more atmospheric beam.
 
 ## Hardware
 
@@ -63,7 +63,7 @@ Prompt examples below are reconstructed summaries, **not verbatim saved prompts*
 - “Create a frightening image of a female ghost crawling out of the well toward the viewer.”
 - “Help me change the hard-edged circular flashlight in Processing into a beam with a gradual fade into darkness.”
 
-Replace with actual prompt excerpts if available. Film inspiration: *Ring* (午夜凶铃), specifically Sadako emerging from a television.
+Replace with actual prompt excerpts if available. Film inspiration: *リング*, specifically Sadako emerging from a television.
 
 ## Documentation assets
 
